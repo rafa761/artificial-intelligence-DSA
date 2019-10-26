@@ -20,7 +20,6 @@ https://docs.bitnami.com/aws/infrastructure/mongodb/administration/change-reset-
 Abrir porta Debian
 sudo ufw allow 27017
 
-
 --------------------------
 Windows 10 MongoDB
 IP: 192.168.0.100
