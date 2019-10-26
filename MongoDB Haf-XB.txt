@@ -1,0 +1,28 @@
+Debian MongoDB
+IP: 192.168.0.20
+
+username: bitnami
+password: $Guild56
+
+username: root
+password: $Guild56
+
+Administracao Remota
+mongo admin --username root -p --host 127.0.0.1 --port 27017
+
+Alterar password
+mongo admin --username root --password NOVA_SENHA
+
+
+Resetar senha Admin mongodb
+https://docs.bitnami.com/aws/infrastructure/mongodb/administration/change-reset-password/
+
+Abrir porta Debian
+sudo ufw allow 27017
+
+
+--------------------------
+Windows 10 MongoDB
+IP: 192.168.0.100
+
+Sem senha
